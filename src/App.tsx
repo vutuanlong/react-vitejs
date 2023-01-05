@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg';
 import './App.css';
 import Test from './components/Test';
 import Calculator from './components/calculator/Calculator';
+import Album from './features/Album';
 import { createColumnHelper } from "@tanstack/react-table";
 import { DataTable } from './components/DataTables';
 import TableChakra from './components/TableChakra';
@@ -58,6 +59,7 @@ function App() {
 	return (
 		<div className="App">
 			<Calculator />
+			<Album />
 
 
 			{/* <Test /> */}

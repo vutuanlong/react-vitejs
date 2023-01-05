@@ -1,0 +1,29 @@
+.album-list {
+	list-style: none;
+	display: flex;
+	margin-bottom: 20px;
+}
+.album-list li {
+	padding: 0 15px;
+}
+.album-list li img {
+	transition: transform .7s;
+}
+.album-list h2 {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.36;
+	color: #000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-top: 15px;
+}
+.zm-card-image {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	border-radius: 5px;
+}
+.zm-card-image:hover img {
+	transform: scale(1.1) translateZ(0);
+}
